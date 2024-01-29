@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(120deg, #ffffff60, #b097c7f7)
+
+}
+header{
+    background-color: papayawhip;
+    font:200px;
+    height: 130px;
+    width:auto;
+}
+h1{
+    text-align:left;
+    font-size:50px;
+}
+.logo{
+    border-color: black;
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 12px;
+    border-radius: 50%
+}
+
+.nav{
+    text-align: center;
+    font-size: 1.1em;
+    float: center;
+    font-size: 25px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.377)
+}
+
+.log-in{
+    text-align:left;
+    float:right;
+    font-size: 15px;
+}
+.section-container{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin: 1px;
+    border: 1px solid #999;
+}
+.holder-basic{
+    padding: 15px;
+    margin:80px;
+    border: 1px solid #999;
+    width: 1000px;
+}
+.image-position{
+    float: left;
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,19 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background:linear-gradient(120deg, #4c4ce0, #b2b2f0);
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+}
+div{
+    width: 300px;
+    height: 150px;
+    align-items: center;
+    background:linear-gradient(120deg, #ffffff60, #b097c7f7);
+}

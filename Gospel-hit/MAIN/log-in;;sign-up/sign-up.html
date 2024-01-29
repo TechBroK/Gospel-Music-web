@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<,>, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+<body>
+    <h1 class="head">Sign Up</h1>
+    <p><b>Please enter in your correct details</b></p>
+        <form action="#" method="post">
+            <fieldset>
+                <label for="firstname"><b>First Name :</b>
+                    <input id="firstname" name="firstname" type="text" placeholder="First_Name" required />
+                </label>
+                <br>
+                <label for="lastname"><b>Last Name :</b>
+                    <input id="lastname" type="text" placeholder="Last_Name" required />
+                </label>
+                <br>
+                <labeL for="email"><b>Email Address :</b>
+                    <input id="email" type="email" placeholder="Email" required />
+                </label>
+                <br>
+                <label for="phone"><b>Phone :</b>
+                    <input id="phone" type="phone" placeholder="Phone" required />
+                </label>
+                <br>
+                <label for="username"><b>Username :</b>
+                    <input id="username" type="text" placeholder="Username" optional />
+                </label>
+                <br>
+                <label for="password"><b>Create Password :</b>
+                    <input id="password" type="password" placeholder="Create Password" mandatory />
+                </label>
+                <br>
+                <label for="confirm password"><b>Confirm Password :</b>
+                    <input id="confirm password" type="password" placeholder="Confirm Password" mandatory />
+                </label>
+                <br>
+                <label><b>Gender :</b></label>
+                <form method="get">
+                    <input class="inline" type="radio" id="male" value="Male" name="gender">
+                    <label for="male">Male</label>
+                    <input class="inline" type="radio" id="female" value="Female" name="gender">
+                    <label for="female">Female</label>
+                </form>
+
+            </fieldset>
+            <input value="Submit" type="submit"/>
+            <p><a href="log-in.html" target="_blank">Click Here To LOG-IN</a></p>
+        </form>
+</body>
+</html>
